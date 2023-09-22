@@ -62,7 +62,45 @@ end
 
 > Here is an example of using a codeblock for an error that appears in bash.
 
- ## References
+## Step 3 - Use Github Flavoured Markdown Task Lists
 
- - https://github.com/KaliiMoon/github-docs-example/edit/main/README.md <sup>[1]</sup>
- - [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) <sup>[2]</sup>
+Github extends Markdown to have a list where you can check off items. [<sup>[2]</sup>](#external-references)
+
+- [x] Finish Step 1
+- [ ] Finish Step 2
+- [x] Finish Step 3
+
+# Step 4 - Use Emojis (Optional)
+
+Github Flavored Markdown (GFM) supports emoji shortcodes.
+Here are some examples:
+
+| Name | Shortcode | Emoji |
+| --- | --- | --- |
+| flower | `:sunflower:` | 🌻: |
+| cresent moon | `:crescent_moon:` | :crescent_moon: |
+
+# Step 5 - how to create a table
+
+You can use the following markdown format to create tables:
+
+```md
+| Name | Shortcode | Emoji |
+| --- | --- | --- |
+| flower | `:sunflower:` | 🌻: |
+| cresent moon | `:crescent_moon:` | :crescent_moon: |
+```
+
+Github extends the functionality of Markdown tables to provide more alignment and table cell formatting options. [<sup>[1]</sup>](#external-references)
+
+
+ ## External References
+
+ - [GH Doc Examples](https://github.com/KaliiMoon/github-docs-example/edit/main/README.md) 
+ - [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+ - [GFM - (Tables with ext)](https://github.github.com/gfm/#tables-extension-) <sup>[1]</sup>
+ - [GFM - Emoji CheatSheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+ - [GFM - Task Lists](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists) <sup>[2]</sup>
+
+ 
+ 
