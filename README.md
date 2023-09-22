@@ -43,3 +43,26 @@ person2.celebrate_birthday
 - When you can you should attempt to apply syntax highlighting to your codeblocks.
 
 <img width="200px" src="https://github.com/KaliiMoon/github-docs-example/assets/132712673/262f8913-65b9-424d-9690-ecbc3885d28b" />
+
+Good Cloud Engineers use codeblocks for both Code and Errors that appear in the console.
+
+```bash
+def divide(a, b)
+  result = a / b
+  return result
+end
+
+begin
+  result = divide(5, 0)
+rescue ZeroDivisionError => e
+  puts "Error: #{e.message}"
+  puts e.backtrace
+end
+```
+
+> Here is an example of using a codeblock for an error that appears in bash.
+
+ ## References
+
+ - https://github.com/KaliiMoon/github-docs-example/edit/main/README.md <sup>[1]</sup>
+ - [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) <sup>[2]</sup>
